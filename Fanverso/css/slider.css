@@ -1,0 +1,55 @@
+
+  .fanverso-badge {
+    height: 15px;
+    width: 15px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .demo {
+    opacity: 0.6;
+  }
+
+  .fanverso-badge:hover {
+    background-color: #717171;
+  }
+
+  .fanverso-display-container {
+    position: relative;
+  }
+
+  .fanverso-center {
+    text-align: center;
+  }
+
+  .fanverso-display-bottommiddle {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .fanverso-left,
+  .fanverso-right {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: -20px;
+  }
+
+  .fanverso-left {
+    left: 10px;
+  }
+
+  .fanverso-right {
+    right: 10px;
+  }
+
+  .fanverso-white {
+    background-color: #fff;
+  }
