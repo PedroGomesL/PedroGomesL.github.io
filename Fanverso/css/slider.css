@@ -1,4 +1,9 @@
 
+.fanverso-content {
+    margin: auto; 
+    padding-top: 49px;
+  }
+  
   .fanverso-badge {
     height: 15px;
     width: 15px;
@@ -38,7 +43,7 @@
     top: 50%;
     font-size: 24px;
     cursor: pointer;
-    color: #fff;
+    color: #000000;
     margin-top: -20px;
   }
 
