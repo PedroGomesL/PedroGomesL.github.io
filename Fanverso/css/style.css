@@ -198,3 +198,11 @@
 .fade_out img.top:hover {
     opacity: 0;
 }
+
+.sub-title a {
+    text-decoration: none;
+    color: black;
+}
+.sub-only:hover{
+    font-size: medium;
+}
