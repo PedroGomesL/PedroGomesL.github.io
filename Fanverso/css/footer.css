@@ -10,8 +10,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
-   
+    align-items: start;
+
 }
 
 #logo-copyright {
@@ -57,7 +57,7 @@ footer {
 }
 
 #payment {
-    margin-bottom: 3vh;
+    margin-top: 2%;
 }
 
 #column-1 {
@@ -77,4 +77,30 @@ footer {
 
 .column-2-itens {
     margin-right: 2vh;
+}
+
+@media screen and (max-width:1100px) {
+    #container-footer {
+        width: 100%;
+    }
+
+    #column-1,
+    #column-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .column-1-itens,
+    .column-2-itens {
+        margin-top: 10px;
+        min-width: 40px;
+    }
+
+
+    #help,
+    #terms-of-use,
+    #Meet-Fanverso {
+        height: auto;
+    }
 }

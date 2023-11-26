@@ -41,13 +41,14 @@
     .column-1-itens,
     .column-2-itens {
         margin-top: 10px;
+        min-width: 40px;
     }
 
 
     #help,
     #terms-of-use,
     #Meet-Fanverso {
-        margin-top: -300px;
+        height: auto;
     }
 }
 
