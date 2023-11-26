@@ -11,7 +11,7 @@
 }
 
 main {
-    padding-bottom: 30%;
+    padding-bottom: 55%;
     background-image: url("/Fanverso/img/BACKGROUND/colorido.svg");
     background-repeat: repeat;
 }
@@ -61,4 +61,59 @@ main {
     padding-left: 20px;
     font-family: 'Changa One', sans-serif;
     font-weight: 100;
+}
+.description {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.price {
+    font-family: "roboto";
+    font-weight:600;
+}
+
+.options-buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-cart, .buy{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    height: 30px;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+    border-radius:6px;   
+    margin-top: -1px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .add-cart, .buy{
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+        height: 45px;
+        width: 55%;
+        justify-content: center;
+        align-items: center;
+        border-radius:6px;   
+        margin-top: -1px;
+    }
+
+    
+}
+
+.add-cart a, .buy a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-cart:hover, .buy:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease;
 }
